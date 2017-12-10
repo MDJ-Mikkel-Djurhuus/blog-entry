@@ -11,7 +11,7 @@ Among these processes, DevOps is the next big thing in the IT industry. More Sof
 
 DevOps is a software engineering culture and practice, that aims at unifying software development (Dev) and software operation (Ops).
 
-As DevOps is intended to be a cross-functional mode of working, rather than a single DevOps tool there are sets (or "toolchains") of multiple tools.[13] Such DevOps tools are expected to fit into one or more of these categories, reflective of key aspects of the development and delivery process:[14][15]
+As DevOps is intended to be a cross-functional mode of working, rather than a single DevOps tool there are sets (or "toolchains") of multiple tools. Such DevOps tools are expected to fit into one or more of these categories, reflective of key aspects of the development and delivery process:
 
 - Code — code development and review, source code management tools, code merging
 - Build — continuous integration tools, build status
