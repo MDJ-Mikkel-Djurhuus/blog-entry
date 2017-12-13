@@ -1,10 +1,10 @@
+![Software Development Evolution](https://blog.heliossolutions.in/wp-content/uploads/2017/05/Software-Development-Evolution-From-Waterfall-to-Agile-to-DevOps.jpg)
+
 # The new age of Software Development (WIP)
 
 In the wave of new age technologies, the technology industry is witnessing new tools and methods of Software Development, new and old problems. In order to have faster and better quality of development, we must solve our new and old problems. The age old problem of human made errors, and human inefficiency is primarily what DevOps is. As well as removing the nervous and scary feeling of pushing a new release and hoping you remembered to do everything right. Leaving more time for developers to actually develop code, and spend less time on things that can be automated. There are not just many tools for software developers but there are new development methodologies for software development experts to explore areas of software development processes.
 
 Among these processes, DevOps is the next big thing in the IT industry. More Software Developers are now choosing DevOps and IT Companies are also training their resources with DevOps management. It is in fact reducing the gap between Services of Software Development and the IT Solutions that are used for enterprises or businesses.
-
-![Software Development Evolution](https://blog.heliossolutions.in/wp-content/uploads/2017/05/Software-Development-Evolution-From-Waterfall-to-Agile-to-DevOps.jpg)
 
 # DevOps
 ![DevOps](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/512px-Devops-toolchain.svg.png)
@@ -73,24 +73,23 @@ Operator's point of view:
 
 ### How DevOps solves some common issues
 Lets focus on how DevOps handles the issues otherwise encountered during deveopment and operations. The table below demonstrates how how DevOps takes care of the issues.
+
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Dev-Challenges-DevOps-Tutorial-Edureka-1.png)
+
 Delving deeper, we can use the table below.
+
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Ops-Challenges-DevOps-Tutorial-Edureka-1.png)
 
 At this point, we still haven't given you any tools other than concepts, on how to implement DevOps. It's important to not only make an accepting culture for DevOps, but also teach developers the tools they'll need to properly apply the DevOps functionalities. 
 Some of the various tools we'd recommend looking at are GIT, Docker, Chef, Jenkins, Puppet, Selenium, AWS just to name a few. The list goes on, if you choose to search for tools on your own.
-
-Each of these tools help DevOps in various stages:
-Continuous Development.
-Continuous Integration.
-Continuous Testing.
-Continuous Deployment.
-Continuous Monitoring.
+Each of these tools help DevOps in various stages: Continuous Development, Continuous Integration, Continuous Testing, Continuous Deployment, Continuous Monitoring.
 
 We need all of these stages to ensure we always deliver a high quality product to the customer, at a very fast rate. You might notice the excessive use of "continuous". That's because it's important for the process to be as smooth as possible. This includes working on current production code, and pushing small changes as soon as they can be verified as properly functional.
 
 Examining the diagram below, it's easier distinguishable in which stage each tool can be used.
+
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Tools-DevOps-Tutorial-Edureka-1.png)
+
 Categorized by the different stages of DevOps, we can see which tools belongs where. It's therefore important to firstly know about the stages, and then learn more abou the tools afterwards
 
 The lifecycle of DevOps can be crudely broken down into the following stages:
