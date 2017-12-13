@@ -82,9 +82,9 @@ These tools has been categorized into various stages of DevOps. Hence it is impo
 
 DevOps Lifecycle can be broadly broken down into the below DevOps Stages:
 
-Continuous Development
-Continuous Integration
-Continuous Testing
-Continuous Monitoring
-Virtualization and Containerization
+Continuous Development   
+Continuous Integration   
+Continuous Testing   
+Continuous Monitoring   
+Virtualization and Containerization   
 These stages are the building blocks to achieve DevOps as a whole.
