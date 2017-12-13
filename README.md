@@ -29,6 +29,62 @@ The goals of DevOps span the entire delivery pipeline. They include:
 - Shortened lead time between fixes;
 - Faster mean time to recovery (in the event of a new release crashing or otherwise disabling the current system).
 
-## Dev (Development)
+## What led DevOps to come into existence
+Let’s consider developing software in a traditional way using a Waterfall Model.
 
-## Ops (Operations)
+![waterfall](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/Waterfall-Model-Devops-Tutorial-Edureka.png)
+
+- In phase 1 – Complete Requirement is gathered and SRS is developed
+- In phase 2 – This System is Planned and Designed using the SRS
+- In phase 3 – Implementation of the System takes place
+- In phase 4 – System is tested and its quality is assured
+- In phase 5 – System is deployed to the end users
+- In phase 6 – Regular Maintenance of the system is done
+
+### Waterfall Model Challenges
+The Water-fall model worked fine and served well for many years however it had some challenges. In the following diagram the challenges of Waterfall Model are highlighted.
+![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/WaterFall-Model-Challenges-DevOps-Tutorial-Edureka-2.png)
+In the above diagram you can see that both Development and Operations had challenges in the Waterfall Model. From Developers point of view there were majorly two challenges:
+- After Development, the code deployment time was huge.
+- Pressure of work on old, pending and new code was high because development and deployment time was high.
+
+On the other hand, Operations was also not completely satisfied. There were four major challenges they faced as per the above diagram:
+- It was difficult to maintain ~100% uptime of the production environment.
+- Infrastructure Automation tools were not very affective.
+- Number of severs to be monitored keeps on increasing with time and hence the complexity.
+- It was very difficult to provide feedback and diagnose issue in the product.
+
+![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/Possible-solutions-to-address-the-challenges-faced-with-WaterFall-Model-DevOps-Tutorial-Edureka-1-1.png)
+
+In the above diagram, Probable Solutions for the issues faced by Developers and Operations are highlighted in blue. This sets the guidelines for an Ideal Software Development strategy.
+
+From Developers point of view:
+- A system which enables code deployment without any delay or wait time.
+- A system where work happens on the current code itself i.e. development sprints are short and well planned.
+
+From Operations point of view:
+- System should have at-least 99% uptime.
+- Tools & systems are there in place for easy administration.
+- Effective monitoring and feedbacks system should be there.
+- Better Collaboration between Development & Operations and is common requirement for Developers and Operations team.
+
+### How DevOps solves some common issues
+Now let us see how DevOps takes care of the challenges faced by Development and Operations. Below table describes how DevOps addresses Dev Challenges. 
+![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Dev-Challenges-DevOps-Tutorial-Edureka-1.png)
+Going further, below table describes how DevOps addresses Ops Challenges.
+![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Ops-Challenges-DevOps-Tutorial-Edureka-1.png)
+
+However, you would still be wondering, how to implement DevOps. To expedite and actualize DevOps process apart from culturally accepting it, one also needs various DevOps tools like Puppet, Jenkins, GIT, Chef, Docker, Selenium, AWS etc to achieve automation at various stages which helps in achieving Continuous Development, Continuous Integration, Continuous Testing, Continuous Deployment, Continuous Monitoring to deliver a quality software to the customer at a very fast pace.
+Now take a look at the below DevOps diagram with various DevOps Tools closely and try to decode it.
+   
+![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Tools-DevOps-Tutorial-Edureka-1.png)
+These tools has been categorized into various stages of DevOps. Hence it is important that I first tell you about DevOps stages and then talk more about DevOps Tools.
+
+DevOps Lifecycle can be broadly broken down into the below DevOps Stages:
+
+Continuous Development
+Continuous Integration
+Continuous Testing
+Continuous Monitoring
+Virtualization and Containerization
+These stages are the building blocks to achieve DevOps as a whole.
