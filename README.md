@@ -42,31 +42,34 @@ Let’s consider developing software in a traditional way using a Waterfall Mode
 - In phase 6 – Regular Maintenance of the system is done
 
 ### Waterfall Model Challenges
-The Water-fall model worked fine and served well for many years however it had some challenges. In the following diagram the challenges of Waterfall Model are highlighted.
-![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/WaterFall-Model-Challenges-DevOps-Tutorial-Edureka-2.png)
-In the above diagram you can see that both Development and Operations had challenges in the Waterfall Model. From Developers point of view there were majorly two challenges:
-- After Development, the code deployment time was huge.
-- Pressure of work on old, pending and new code was high because development and deployment time was high.
+The waterfall method is the traditional method for developing software. It was the primary method of developing during the early days. Even though it has gotten a bad rep these days. It's even gotten so bad some people are swearing you can't develop software with the waterfall method. But if we look back, we can see plenty of software solutions were created in the 80s, 90s and 00s where the waterfall method was the only, or primary method. 
 
-On the other hand, Operations was also not completely satisfied. There were four major challenges they faced as per the above diagram:
-- It was difficult to maintain ~100% uptime of the production environment.
-- Infrastructure Automation tools were not very affective.
-- Number of severs to be monitored keeps on increasing with time and hence the complexity.
-- It was very difficult to provide feedback and diagnose issue in the product.
+It's not as bad as it's seen as nowadays. But, it's far from perfect as well. In the following diagram, the issues with the waterfall model is shown.
+
+![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/WaterFall-Model-Challenges-DevOps-Tutorial-Edureka-2.png)
+Looking at the diagram above, we can clearly see the issues and challenges presented both in development and operations sections of the system's lifetime. When looking at the issues from a developer's point of view, we can ascertain two major challenges:
+- Huge time waste during code deployment.
+- Time wasted on working on old code, pending code and new code due to the high deployment times.
+
+Operations weren't optimal either. With operations we have 4 major challenges. As seen in the diagram. These are as follows:
+- High difficulty of maintaining a near 100% uptime of prod. environment.
+- Automation of infrastructure weren't very effective.
+- The amount of servers we need to monitor today is way higher than 10-20 years ago, and with this trend, it'll only keep increasing, maybe exponentially.
+- Getting feedback and thus being able to diagnose an issue could prove to be near impossible.
 
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/Possible-solutions-to-address-the-challenges-faced-with-WaterFall-Model-DevOps-Tutorial-Edureka-1-1.png)
 
-In the above diagram, Probable Solutions for the issues faced by Developers and Operations are highlighted in blue. This sets the guidelines for an Ideal Software Development strategy.
+Looking at the diagram above, we can see suggested solutions faced by both operators and developers. These are highlighted in blue. With these suggested solutions we can now set the guidelines for an Ideal Software Development Strategy.
 
-From Developers point of view:
-- A system which enables code deployment without any delay or wait time.
-- A system where work happens on the current code itself i.e. development sprints are short and well planned.
+Developer's point of view:
+- System where the time from code to release is significantly minimized, ideally removed.
+- System where working on the current production code is possible. This could be with very short and well planned sprints.
 
-From Operations point of view:
-- System should have at-least 99% uptime.
-- Tools & systems are there in place for easy administration.
-- Effective monitoring and feedbacks system should be there.
-- Better Collaboration between Development & Operations and is common requirement for Developers and Operations team.
+Operator's point of view:
+- System need at least 99% up time.
+- Systems and tools to make admin tasks more accessible and easier.
+- Monitoring and feedback systems with high efficiency.
+- More efficient teamwork between development and operations. 
 
 ### How DevOps solves some common issues
 Now let us see how DevOps takes care of the challenges faced by Development and Operations. Below table describes how DevOps addresses Dev Challenges. 
