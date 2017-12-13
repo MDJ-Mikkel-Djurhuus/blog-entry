@@ -99,4 +99,6 @@ The lifecycle of DevOps can be crudely broken down into the following stages:
 - Continuous Monitoring
 - Virtualization and Containerization
 
-All of these stages are simply building blocks upon which to achieve DevOps. Now try building your own DevOps solution!
+All of these stages are simply building blocks upon which to achieve DevOps. 
+
+Now try building your own DevOps solution!
