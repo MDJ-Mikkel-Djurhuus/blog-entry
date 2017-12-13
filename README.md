@@ -72,9 +72,9 @@ Operator's point of view:
 - More efficient teamwork between development and operations. 
 
 ### How DevOps solves some common issues
-Now let us see how DevOps takes care of the challenges faced by Development and Operations. Below table describes how DevOps addresses Dev Challenges. 
+Lets focus on how DevOps handles the issues otherwise encountered during deveopment and operations. The table below demonstrates how how DevOps takes care of the issues.
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Dev-Challenges-DevOps-Tutorial-Edureka-1.png)
-Going further, below table describes how DevOps addresses Ops Challenges.
+Delving deeper, we can use the table below.
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Ops-Challenges-DevOps-Tutorial-Edureka-1.png)
 
 However, you would still be wondering, how to implement DevOps. To expedite and actualize DevOps process apart from culturally accepting it, one also needs various DevOps tools like Puppet, Jenkins, GIT, Chef, Docker, Selenium, AWS etc to achieve automation at various stages which helps in achieving Continuous Development, Continuous Integration, Continuous Testing, Continuous Deployment, Continuous Monitoring to deliver a quality software to the customer at a very fast pace.
