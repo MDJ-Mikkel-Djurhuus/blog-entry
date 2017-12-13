@@ -77,17 +77,27 @@ Lets focus on how DevOps handles the issues otherwise encountered during deveopm
 Delving deeper, we can use the table below.
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Ops-Challenges-DevOps-Tutorial-Edureka-1.png)
 
-However, you would still be wondering, how to implement DevOps. To expedite and actualize DevOps process apart from culturally accepting it, one also needs various DevOps tools like Puppet, Jenkins, GIT, Chef, Docker, Selenium, AWS etc to achieve automation at various stages which helps in achieving Continuous Development, Continuous Integration, Continuous Testing, Continuous Deployment, Continuous Monitoring to deliver a quality software to the customer at a very fast pace.
-Now take a look at the below DevOps diagram with various DevOps Tools closely and try to decode it.
-   
-![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Tools-DevOps-Tutorial-Edureka-1.png)
-These tools has been categorized into various stages of DevOps. Hence it is important that I first tell you about DevOps stages and then talk more about DevOps Tools.
+At this point, we still haven't given you any tools other than concepts, on how to implement DevOps. It's important to not only make an accepting culture for DevOps, but also teach developers the tools they'll need to properly apply the DevOps functionalities. 
+Some of the various tools we'd recommend looking at are GIT, Docker, Chef, Jenkins, Puppet, Selenium, AWS just to name a few. The list goes on, if you choose to search for tools on your own.
 
-DevOps Lifecycle can be broadly broken down into the below DevOps Stages:
+Each of these tools help DevOps in various stages:
+Continuous Development.
+Continuous Integration.
+Continuous Testing.
+Continuous Deployment.
+Continuous Monitoring.
+
+We need all of these stages to ensure we always deliver a high quality product to the customer, at a very fast rate. You might notice the excessive use of "continuous". That's because it's important for the process to be as smooth as possible. This includes working on current production code, and pushing small changes as soon as they can be verified as properly functional.
+
+Examining the diagram below, it's easier distinguishable in which stage each tool can be used.
+![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Tools-DevOps-Tutorial-Edureka-1.png)
+Categorized by the different stages of DevOps, we can see which tools belongs where. It's therefore important to firstly know about the stages, and then learn more abou the tools afterwards
+
+The lifecycle of DevOps can be crudely broken down into the following stages:
 
 Continuous Development
 Continuous Integration
 Continuous Testing
 Continuous Monitoring
 Virtualization and Containerization
-These stages are the building blocks to achieve DevOps as a whole.
+All of these stages are simply building blocks upon which to achieve DevOps.
