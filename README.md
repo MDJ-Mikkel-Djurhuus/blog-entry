@@ -4,7 +4,7 @@
 
 In the wave of new age technologies, the technology industry is witnessing new tools and methods of Software Development, new and old problems. In order to have faster and better quality of development, we must solve our new and old problems. The age old problem of human made errors, and human inefficiency is primarily what DevOps is eliminating. As well as removing the nervous and scary feeling of pushing a new release and hoping you remembered to do everything right. Leaving more time for developers to actually develop code, and spend less time on things that can be automated. There are not just many tools for software developers but there are new development methodologies for software development experts to explore areas of software development processes.
 
-Among these processes, DevOps is the next big thing in the IT industry. More Software Developers are now choosing DevOps and IT Companies are also training their resources with DevOps management. It is in fact reducing the gap between Services of Software Development and the IT Solutions that are used for enterprises or businesses.
+Among these processes, DevOps is the next big thing in the IT industry. More Software Developers are now choosing DevOps and IT Companies are also training their resources with DevOps management. It's reducing the gap between development tools and final IT solutions for enterprises and businesses.
 
 # DevOps
 ![DevOps](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/512px-Devops-toolchain.svg.png)
