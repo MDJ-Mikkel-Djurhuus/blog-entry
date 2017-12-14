@@ -49,13 +49,13 @@ It's not as bad as it's seen as nowadays. But, it's far from perfect as well. In
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/WaterFall-Model-Challenges-DevOps-Tutorial-Edureka-2.png)
 
 Looking at the diagram above, we can clearly see the issues and challenges presented both in development and operations sections of the system's lifetime. When looking at the issues from a developer's point of view, we can ascertain two major challenges:
-- Huge time waste during code deployment. Even if you optimize and accelerate build processes and implement automated testing and practices to streamline development, new code won't get to users until the next release cycle.
+- Huge time waste during code deployment. Even if you optimize and accelerate build processes and implement automated testing and practices to streamline development, new code won't get to users until the next release cycle<sup>[8](#8)</sup>.
 - Time wasted on working on old code, pending code and new code due to the high deployment times.
 
 Operations weren't optimal either. With operations we have 4 major challenges. As seen in the diagram. These are as follows:
-- High difficulty of maintaining a near 100% uptime of prod. environment.
+- High difficulty of maintaining a near 100% uptime of prod. environment<sup>[9](#9)</sup>.
 - Automation of infrastructure weren't very effective.
-- The amount of servers we need to monitor today is way higher than 10-20 years ago, and with this trend, it'll only keep increasing, maybe exponentially<sup>[8](#8)</sup>.
+- The amount of servers we need to monitor today is way higher than 10-20 years ago, and with this trend, it'll only keep increasing, maybe exponentially<sup>[10](#10)</sup>.
 - Getting feedback and thus being able to diagnose an issue could prove to be near impossible.
 
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/Possible-solutions-to-address-the-challenges-faced-with-WaterFall-Model-DevOps-Tutorial-Edureka-1-1.png)
@@ -63,7 +63,7 @@ Operations weren't optimal either. With operations we have 4 major challenges. A
 Looking at the diagram above, we can see suggested solutions faced by both operators and developers. These are highlighted in blue. With these suggested solutions we can now set the guidelines for an Ideal Software Development Strategy.
 
 Developer's point of view:
-- System where the time from code to release is significantly minimized, ideally removed.
+- System where the time from code to release is significantly minimized, ideally removed<sup>[11](#11)</sup>.
 - System where working on the current production code is possible. This could be with very short and well planned sprints.
 
 Operator's point of view:
@@ -73,7 +73,7 @@ Operator's point of view:
 - More efficient teamwork between development and operations. 
 
 ### How DevOps solves some common issues
-Lets focus on how DevOps handles the issues otherwise encountered during deveopment and operations. The table below demonstrates how how DevOps takes care of the issues<sup>[9](#9)</sup> <sup>[10](#10)</sup>.
+Lets focus on how DevOps handles the issues otherwise encountered during deveopment and operations. The table below demonstrates how how DevOps takes care of the issues<sup>[12](#12)</sup> <sup>[13](#13)</sup>.
 
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Dev-Challenges-DevOps-Tutorial-Edureka-1.png)
 
@@ -119,12 +119,16 @@ Now try building your own DevOps solution!
 
 <a name="7">7</a>: https://mashimo.wordpress.com/2008/06/20/the-problem-with-the-waterfall-software-development-model/
 
-<a name="8">8</a>: https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
+<a name="8">8</a>: https://www.thoughtworks.com/insights/blog/case-continuous-delivery (Continuous Delivery reduces waste and makes releases boring)
 
-<a name="9">9</a>: https://www.datical.com/blog/6-problems-devops-helps-solve/
+<a name="9">9</a>: https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
 
-<a name="10">10</a>: https://dzone.com/articles/real-world-problems-solved-by-devops
+<a name="10">10</a>: https://www.datical.com/blog/6-problems-devops-helps-solve/
 
-<a name="11">11</a>:https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
+<a name="11">11</a>: https://www.thoughtworks.com/insights/blog/case-continuous-delivery (Implementing CD has second-order effects that reduce the costs of software development)
+
+<a name="12">12</a>: https://dzone.com/articles/real-world-problems-solved-by-devops
+
+<a name="13">13</a>: https://www.thoughtworks.com/insights/blog/case-continuous-delivery
 <a name="12">12</a>:https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
 <a name="13">13</a>:https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
