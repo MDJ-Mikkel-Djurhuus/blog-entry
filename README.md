@@ -34,7 +34,7 @@ Let’s consider developing software in a traditional way using a Waterfall Mode
 
 ![waterfall](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/Waterfall-Model-Devops-Tutorial-Edureka.png)
 
-- In phase 1 – Complete Requirement is gathered and SRS is developed
+- In phase 1 – Complete Requirement is gathered and SRS(Software Requirements Specification) is developed
 - In phase 2 – This System is Planned and Designed using the SRS
 - In phase 3 – Implementation of the System takes place
 - In phase 4 – System is tested and its quality is assured
