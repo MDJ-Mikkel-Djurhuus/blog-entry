@@ -44,18 +44,18 @@ Let’s consider developing software in a traditional way using a Waterfall Mode
 ### Waterfall Model Challenges
 The waterfall method is the traditional method for developing software. It was the primary method of developing during the early days. Even though it has gotten a bad rep these days. It's even gotten so bad some people are swearing you can't develop software with the waterfall method. But if we look back, we can see plenty of software solutions were created in the 80s, 90s and 00s where the waterfall method was the only, or primary method<sup>[7](#7)</sup>.
 
-It's not as bad as it's seen as nowadays. But, it's far from perfect as well. In the following diagram, the issues with the waterfall model is shown.
+It's not as bad as it's seen as nowadays. But, it's far from perfect as well. In the following diagram, some of the issues with the waterfall model is shown.
 
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/WaterFall-Model-Challenges-DevOps-Tutorial-Edureka-2.png)
 
 Looking at the diagram above, we can clearly see the issues and challenges presented both in development and operations sections of the system's lifetime. When looking at the issues from a developer's point of view, we can ascertain two major challenges:
-- Huge time waste during code deployment.
+- Huge time waste during code deployment. Even if you optimize and accelerate build processes and implement automated testing and practices to streamline development, new code won't get to users until the next release cycle.
 - Time wasted on working on old code, pending code and new code due to the high deployment times.
 
 Operations weren't optimal either. With operations we have 4 major challenges. As seen in the diagram. These are as follows:
 - High difficulty of maintaining a near 100% uptime of prod. environment.
 - Automation of infrastructure weren't very effective.
-- The amount of servers we need to monitor today is way higher than 10-20 years ago, and with this trend, it'll only keep increasing, maybe exponentially.
+- The amount of servers we need to monitor today is way higher than 10-20 years ago, and with this trend, it'll only keep increasing, maybe exponentially<sup>[8](#8)</sup>.
 - Getting feedback and thus being able to diagnose an issue could prove to be near impossible.
 
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/Possible-solutions-to-address-the-challenges-faced-with-WaterFall-Model-DevOps-Tutorial-Edureka-1-1.png)
@@ -73,7 +73,7 @@ Operator's point of view:
 - More efficient teamwork between development and operations. 
 
 ### How DevOps solves some common issues
-Lets focus on how DevOps handles the issues otherwise encountered during deveopment and operations. The table below demonstrates how how DevOps takes care of the issues<sup>[8](#8)</sup> <sup>[9](#9)</sup>.
+Lets focus on how DevOps handles the issues otherwise encountered during deveopment and operations. The table below demonstrates how how DevOps takes care of the issues<sup>[9](#9)</sup> <sup>[10](#10)</sup>.
 
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Dev-Challenges-DevOps-Tutorial-Edureka-1.png)
 
@@ -111,14 +111,20 @@ Now try building your own DevOps solution!
 
 <a name="3">3</a>: https://techbeacon.com/10-companies-killing-it-devops
 
-<a name="4">4</a>:https://martinfowler.com/bliki/DevOpsCulture.html
+<a name="4">4</a>: https://martinfowler.com/bliki/DevOpsCulture.html
 
-<a name="5">5</a>:https://en.wikipedia.org/wiki/DevOps_toolchain
+<a name="5">5</a>: https://en.wikipedia.org/wiki/DevOps_toolchain
 
-<a name="6">6</a>:https://en.wikipedia.org/wiki/Waterfall_model
+<a name="6">6</a>: https://en.wikipedia.org/wiki/Waterfall_model
 
-<a name="7">7</a>:https://mashimo.wordpress.com/2008/06/20/the-problem-with-the-waterfall-software-development-model/
+<a name="7">7</a>: https://mashimo.wordpress.com/2008/06/20/the-problem-with-the-waterfall-software-development-model/
 
-<a name="8">8</a>:https://www.datical.com/blog/6-problems-devops-helps-solve/
+<a name="8">8</a>: https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
 
-<a name="9">9</a>:https://dzone.com/articles/real-world-problems-solved-by-devops
+<a name="9">9</a>: https://www.datical.com/blog/6-problems-devops-helps-solve/
+
+<a name="10">10</a>: https://dzone.com/articles/real-world-problems-solved-by-devops
+
+<a name="11">11</a>:https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
+<a name="12">12</a>:https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
+<a name="13">13</a>:https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
