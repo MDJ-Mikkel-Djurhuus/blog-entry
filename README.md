@@ -121,14 +121,16 @@ Now try building your own DevOps solution!
 
 <a name="8">8</a>: https://www.thoughtworks.com/insights/blog/case-continuous-delivery (Continuous Delivery reduces waste and makes releases boring)
 
-<a name="9">9</a>: https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
+<a name="9">9</a>: http://www.365datacenters.com/portfolio-items/the-cold,-hard-facts-about-uptime/
 
-<a name="10">10</a>: https://www.datical.com/blog/6-problems-devops-helps-solve/
+<a name="10">10</a>: https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
 
 <a name="11">11</a>: https://www.thoughtworks.com/insights/blog/case-continuous-delivery (Implementing CD has second-order effects that reduce the costs of software development)
+
+<a name="12">12</a>: https://www.datical.com/blog/6-problems-devops-helps-solve/
+
+<a name="13">13</a>: https://www.versionone.com/devops-101/what-is-devops/
 
 <a name="12">12</a>: https://dzone.com/articles/real-world-problems-solved-by-devops
 
 <a name="13">13</a>: https://www.thoughtworks.com/insights/blog/case-continuous-delivery
-<a name="12">12</a>:https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
-<a name="13">13</a>:https://siliconangle.com/blog/2016/11/11/global-cloud-traffic-to-increase-by-3-7-fold-by-2020-cisco-says/
