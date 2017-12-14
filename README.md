@@ -9,9 +9,9 @@ Among these processes, DevOps is the next big thing in the IT industry<sup>[2](#
 # DevOps
 ![DevOps](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/512px-Devops-toolchain.svg.png)
 
-DevOps is a software engineering culture and practice, that aims at unifying software development (Dev) and software operation (Ops).
+DevOps is a software engineering culture and practice, that aims at unifying software development (Dev) and software operation (Ops)<sup>[4](#4)</sup>.
 
-As DevOps is intended to be a cross-functional mode of working, rather than a single DevOps tool there are sets (or "toolchains") of multiple tools. Such DevOps tools are expected to fit into one or more of these categories, reflective of key aspects of the development and delivery process:
+As DevOps is intended to be a cross-functional mode of working, rather than a single DevOps tool there are sets (or "toolchains") of multiple tools<sup>[5](#5)</sup>. Such DevOps tools are expected to fit into one or more of these categories, reflective of key aspects of the development and delivery process:
 
 - Code — code development and review, source code management tools, code merging
 - Build — continuous integration tools, build status
@@ -30,7 +30,7 @@ The goals of DevOps span the entire delivery pipeline. They include:
 - Faster mean time to recovery (in the event of a new release crashing or otherwise disabling the current system).
 
 ## What led DevOps to come into existence
-Let’s consider developing software in a traditional way using a Waterfall Model.
+Let’s consider developing software in a traditional way using a Waterfall Model<sup>[6](#6)</sup>.
 
 ![waterfall](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/Waterfall-Model-Devops-Tutorial-Edureka.png)
 
@@ -42,7 +42,7 @@ Let’s consider developing software in a traditional way using a Waterfall Mode
 - In phase 6 – Regular Maintenance of the system is done
 
 ### Waterfall Model Challenges
-The waterfall method is the traditional method for developing software. It was the primary method of developing during the early days. Even though it has gotten a bad rep these days. It's even gotten so bad some people are swearing you can't develop software with the waterfall method. But if we look back, we can see plenty of software solutions were created in the 80s, 90s and 00s where the waterfall method was the only, or primary method. 
+The waterfall method is the traditional method for developing software. It was the primary method of developing during the early days. Even though it has gotten a bad rep these days. It's even gotten so bad some people are swearing you can't develop software with the waterfall method. But if we look back, we can see plenty of software solutions were created in the 80s, 90s and 00s where the waterfall method was the only, or primary method<sup>[7](#7)</sup>.
 
 It's not as bad as it's seen as nowadays. But, it's far from perfect as well. In the following diagram, the issues with the waterfall model is shown.
 
@@ -107,3 +107,9 @@ Now try building your own DevOps solution!
 <a name="1">1</a>: https://www.digitaldoughnut.com/articles/2016/june/what-is-devops-and-how-does-it-help-organizations
 <a name="2">2</a>: https://trends.google.com/trends/explore?date=all&q=devops
 <a name="3">3</a>: https://techbeacon.com/10-companies-killing-it-devops
+<a name="4">4</a>:https://martinfowler.com/bliki/DevOpsCulture.html
+<a name="5">5</a>:https://en.wikipedia.org/wiki/DevOps_toolchain
+<a name="6">6</a>:https://en.wikipedia.org/wiki/Waterfall_model
+<a name="7">7</a>:https://mashimo.wordpress.com/2008/06/20/the-problem-with-the-waterfall-software-development-model/
+<a name="8">8</a>:https://en.wikipedia.org/wiki/DevOps_toolchain
+<a name="9">9</a>:https://en.wikipedia.org/wiki/DevOps_toolchain
