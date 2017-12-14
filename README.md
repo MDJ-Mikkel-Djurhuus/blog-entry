@@ -93,7 +93,7 @@ Examining the diagram below, it's easier distinguishable in which stage each too
 
 Categorized by the different stages of DevOps, we can see which tools belongs where. It's therefore important to firstly know about the stages, and then learn more about the tools afterwards.
 
-The lifecycle of DevOps can be crudely broken down into the following stages:
+The lifecycle of DevOps can be crudely broken down into the following stages<sup>[14](#14)</sup>:
 - Continuous Development
 - Continuous Integration
 - Continuous Testing
@@ -134,3 +134,5 @@ Now try building your own DevOps solution!
 <a name="12">12</a>: https://dzone.com/articles/real-world-problems-solved-by-devops
 
 <a name="13">13</a>: https://www.thoughtworks.com/insights/blog/case-continuous-delivery
+
+<a name="14">14</a>: https://www.versionone.com/devops-101/what-is-devops/
