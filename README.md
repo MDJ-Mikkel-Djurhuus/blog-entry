@@ -72,7 +72,7 @@ Operator's point of view:
 - More efficient teamwork between development and operations. 
 
 ### How DevOps solves some common issues
-Lets focus on how DevOps handles the issues otherwise encountered during deveopment and operations. The table below demonstrates how how DevOps takes care of the issues.
+Lets focus on how DevOps handles the issues otherwise encountered during deveopment and operations. The table below demonstrates how how DevOps takes care of the issues<sup>[8](#8)</sup><sup>[9](#9)</sup>.
 
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Dev-Challenges-DevOps-Tutorial-Edureka-1.png)
 
@@ -111,5 +111,5 @@ Now try building your own DevOps solution!
 <a name="5">5</a>:https://en.wikipedia.org/wiki/DevOps_toolchain
 <a name="6">6</a>:https://en.wikipedia.org/wiki/Waterfall_model
 <a name="7">7</a>:https://mashimo.wordpress.com/2008/06/20/the-problem-with-the-waterfall-software-development-model/
-<a name="8">8</a>:https://en.wikipedia.org/wiki/DevOps_toolchain
-<a name="9">9</a>:https://en.wikipedia.org/wiki/DevOps_toolchain
+<a name="8">8</a>:https://www.datical.com/blog/6-problems-devops-helps-solve/
+<a name="9">9</a>:https://dzone.com/articles/real-world-problems-solved-by-devops
