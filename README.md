@@ -47,6 +47,7 @@ The waterfall method is the traditional method for developing software. It was t
 It's not as bad as it's seen as nowadays. But, it's far from perfect as well. In the following diagram, the issues with the waterfall model is shown.
 
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/WaterFall-Model-Challenges-DevOps-Tutorial-Edureka-2.png)
+
 Looking at the diagram above, we can clearly see the issues and challenges presented both in development and operations sections of the system's lifetime. When looking at the issues from a developer's point of view, we can ascertain two major challenges:
 - Huge time waste during code deployment.
 - Time wasted on working on old code, pending code and new code due to the high deployment times.
@@ -72,7 +73,7 @@ Operator's point of view:
 - More efficient teamwork between development and operations. 
 
 ### How DevOps solves some common issues
-Lets focus on how DevOps handles the issues otherwise encountered during deveopment and operations. The table below demonstrates how how DevOps takes care of the issues<sup>[8](#8)</sup><sup>[9](#9)</sup>.
+Lets focus on how DevOps handles the issues otherwise encountered during deveopment and operations. The table below demonstrates how how DevOps takes care of the issues<sup>[8](#8)</sup> <sup>[9](#9)</sup>.
 
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Dev-Challenges-DevOps-Tutorial-Edureka-1.png)
 
@@ -105,11 +106,19 @@ Now try building your own DevOps solution!
 
 ## References
 <a name="1">1</a>: https://www.digitaldoughnut.com/articles/2016/june/what-is-devops-and-how-does-it-help-organizations
+
 <a name="2">2</a>: https://trends.google.com/trends/explore?date=all&q=devops
+
 <a name="3">3</a>: https://techbeacon.com/10-companies-killing-it-devops
+
 <a name="4">4</a>:https://martinfowler.com/bliki/DevOpsCulture.html
+
 <a name="5">5</a>:https://en.wikipedia.org/wiki/DevOps_toolchain
+
 <a name="6">6</a>:https://en.wikipedia.org/wiki/Waterfall_model
+
 <a name="7">7</a>:https://mashimo.wordpress.com/2008/06/20/the-problem-with-the-waterfall-software-development-model/
+
 <a name="8">8</a>:https://www.datical.com/blog/6-problems-devops-helps-solve/
+
 <a name="9">9</a>:https://dzone.com/articles/real-world-problems-solved-by-devops
