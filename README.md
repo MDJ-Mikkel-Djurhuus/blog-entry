@@ -82,7 +82,7 @@ Delving deeper, we can use the table below.
 ![alt](https://cdn.edureka.co/blog/wp-content/uploads/2016/10/DevOps-Addressing-Ops-Challenges-DevOps-Tutorial-Edureka-1.png)
 
 At this point, we still haven't given you any tools other than concepts, on how to implement DevOps. It's important to not only make an accepting culture for DevOps, but also teach developers the tools they'll need to properly apply the DevOps functionalities. 
-Some of the various tools we'd recommend looking at are GIT, Docker, Chef, Jenkins, Puppet, Selenium, AWS just to name a few. The list goes on, if you choose to search for tools on your own.
+Some of the various tools we'd recommend looking at are GIT, JIRA, Docker, Travis, Jenkins, Selenium, AWS, Azure, Digitial Ocean just to name a few. The list goes on, if you choose to search for tools on your own.
 Each of these tools help DevOps in various stages: Continuous Development, Continuous Integration, Continuous Testing, Continuous Deployment, Continuous Monitoring.
 
 We need all of these stages to ensure we always deliver a high quality product to the customer, at a very fast rate. You might notice the excessive use of "continuous". That's because it's important for the process to be as smooth as possible. This includes working on current production code, and pushing small changes as soon as they can be verified as properly functional.
