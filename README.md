@@ -132,11 +132,12 @@ chmod 600 ~/.ssh/authorized_keys
 Now we have a public key installed, which means we now can SSH into our production server, from our jenkins server.
 
 # What now?
-This blog is just a brief look into how easy it is to get a CD workflow up and running. 
 
-We only mentions the CD part of jenkins, but you could easily extend its use to also manage CI. Letting jenkins handle merging of  branches and running tests.
+Now you've gained insigt in how to setup the CD workflow. But there's so much more to learn, use and master. This can easily be extended with a continuous integration part for example. 
 
-Besides Jenkins there are many other tools which can help you automate your development workflow. 
+By implementing a continuous integration stage to the workflow, we'd have a proper quality check for what code is allowed to be merged and pushed unto the release. Without that check, we're left in the hands of our developers. Which is actually what we're trying to avoid. Letting jenkins handle merging of  branches and running tests. However, everything thing starts with step 1.
+
+Besides Jenkins there are many other tools which can help you automate your development workflow. We have chosen to focus on Jenkins since it's what we used. There are alternatives to do the same thing, and other tools to handle different automation stages of development.
 
 # References
 https://github.com/datsoftlyngby/soft2017fall-lsd-teaching-material/blob/master/lecture_notes/05-Continuous%20Integration%20and%20Delivery.ipynb
