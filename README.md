@@ -1,41 +1,69 @@
 setup/install jenkins
 
-Make a freestyle project
+# Jenkins
+
+After installing jenkins create a new Freestyle project
 
 ![create a new project](./jenkins-freestyle-project.PNG)
 
-## Connect with Git
+## Connect Jenkins to git
 
-Go to the Setup source code management and insert information below
+Go to the Source Code Management section and specify the git repository and branch we want to use. 
 
 ![setup git](./jenkins-source-code-management.PNG)
 
-By now we still haven't told git about our jenkins server, so we need to configure a webhook. This is done logging into our github repository and navigate to settings => integrations & services. Here we add a new service by searching for "jenkins" and choosing the "Jenkins (Git plugin)".
+This will set the workspace of our jenkins project to use the specified git repository, but we still haven't told git about our jenkins server. To let jenkins react to github changes we need to configure a webhook.
 
+This is done logging into our github repository and navigate to settings => integrations & services. 
+
+Here we add a new service by searching for "jenkins" and choosing the "Jenkins (Git plugin)".
+
+![setup git](./jenkins-git.PNG)
 ![setup git](./jenkins-githook.PNG)
 
-We have now linked jenkins to our git
+## Building with jenkins is easy
 
 Now we need specify what should happen whenever git recieves a new commit to the release branch.
 
-![build script](./jenkins-docker-password.PNG)
+Using docker to containerize our applications, makes for a very simple the build step. All the build script needs to do is building the docker image and push it to our dockerhub account.
 
+As we dont want people to see our docker password we create a secret text, which we then enable in the Build Environment
+
+Out of our project, Navigate to the Global credentials section and click on "Add Credentials"
+![build script](./jenkins-docker-password.PNG)
+In our project navigate to the Build Environment section and specify our secret text
 ![build script](./jenkins-docker-password-enable.PNG)
+We can now use `${DOCKER_PWD}` in our scripts
+
+Steps in our build script:
+- Build the docker image (workspace is automaticly set to use the github repository)
+- Login to docker hub (using our secret)
+- Push our image to docker hub (using jenkins environment variable BUILD_NUMBER to specify the image version )
 
 ![build script](./jenkins-build.PNG)
 
-deployment script
+If jenkins succesfully builds and deploys the docker image, it will continue and run the next script, which specifies the deployment to our production server.
+
+Contents of the bash file "./deploy.sh":
 ```
 #!/bin/bash
 IMAGE_NAME=$1
 SERVICE_NAME=$2
-BUILD_NUMBER=$3
 
-docker pull mikkeldjurhuus/${IMAGE_NAME}:${BUILD_NUMBER}
+docker pull mikkeldjurhuus/${IMAGE_NAME}:latest
 docker-compose up -d --no-deps --build ${SERVICE_NAME}
 docker image prune -a
 ```
-## Remote deployment!?
+Here we can see how easy it is to redeploy a docker service, with just 3 lines of code.
+
+Deployment steps:
+- Pull the newly build image
+- Rebuild the service using our image and restart it.
+- Cleanup old images
+
+THATS IT!? A commit to the relase branch will now trigger jenkins to build and deploy our docker application.
+
+## Did we just make a Remote deployment!?
 In the previous steps we log into our production server using SSH and execute a deployment script:  `ssh builder@146.185.141.49 "./deploy.sh"`. SSH, or secure shell, is an encrypted protocol used to administer and communicate with servers. While there are a few different ways of logging into an SSH server, in this guide, we'll focus on setting up SSH keys.
 ### Generate a Key Pair
 To generate a new key pair, we login on our jenkins server and enter the following command in the terminal:
