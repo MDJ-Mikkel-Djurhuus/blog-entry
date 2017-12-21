@@ -1,10 +1,10 @@
-## Continuous Deployment, From Study To Success In 1 Day.
+## Continuous delivery, From Study To Success In 1 Day.
 
 # Abstract
 
 We all know the feeling of pushing new development code unto the production environment. Hoping, wishing, it'll work and there isn't some unforseen circumstance which forces us into panic mode, because now the entire production environment is flashing red and nothing is working. 
 
-This is the scenario we want prevent. To do that, we want to setup a continuous deployment environment. Specifically we'll primarily look at using Jenkins, and how it can be used to manage Docker and Git.
+In the situation of a production faliure, getting the system back on track is essential. which is why we want to setup a continuous delivery environment, that can speed up the release of a hotfix. Specifically we'll primarily look at using Jenkins, and how it can be used together with Docker and Git, to the lower the "mean time to recovery".
 
 With a continuous deployment environment up and running, everytime a developer pushes code to the specified Git branch, Jenkins will build and deploy the updated code to the desired environment, preferably release. Ensuring every consumer is always on the newest update and benefits from new features as soon as possible.
 
@@ -140,3 +140,7 @@ Besides Jenkins there are many other tools which can help you automate your deve
 
 # References
 https://github.com/datsoftlyngby/soft2017fall-lsd-teaching-material/blob/master/lecture_notes/05-Continuous%20Integration%20and%20Delivery.ipynb
+https://en.wikipedia.org/wiki/Mean_time_to_recovery
+https://en.wikipedia.org/wiki/DevOps
+https://en.wikipedia.org/wiki/Continuous_delivery
+https://en.wikipedia.org/wiki/Continuous_integration
