@@ -1,10 +1,10 @@
-# Jenkins
+# Jenkins / Git / Docker - Just how easy it is to setup a CD environment
 
 After installing jenkins create a new Freestyle project
 
 ![create a new project](./jenkins-freestyle-project.PNG)
 
-## Connect Jenkins to git
+## Connecting Jenkins to Git
 
 Go to the Source Code Management section and specify the git repository and branch we want to use. 
 
@@ -19,7 +19,7 @@ Here we add a new service by searching for "jenkins" and choosing the "Jenkins (
 ![setup git](./jenkins-git.PNG)
 ![setup git](./jenkins-githook.PNG)
 
-## Building with jenkins is easy
+## Building and deploying have never been easier
 
 Now we need specify what should happen whenever git recieves a new commit to the release branch.
 
@@ -33,14 +33,21 @@ In our project navigate to the Build Environment section and specify our secret 
 ![build script](./jenkins-docker-password-enable.PNG)
 We can now use `${DOCKER_PWD}` in our scripts
 
+Go to the build section and add two new build steps, one for building and one for deploying.
+
+![build script](./jenkins-build.PNG)
+
 Steps in our build script:
 - Build the docker image (workspace is automaticly set to use the github repository)
 - Login to docker hub (using our secret)
 - Push our image to docker hub (using jenkins environment variable BUILD_NUMBER to specify the image version )
 
-![build script](./jenkins-build.PNG)
+If jenkins succesfully builds and deploys the docker image, it will continue and run our deployment script, which specifies the deployment to our production server.
 
-If jenkins succesfully builds and deploys the docker image, it will continue and run the next script, which specifies the deployment to our production server.
+Deployment steps:
+- Pull the newly build image
+- Rebuild the service using our image and restart it.
+- Cleanup old images
 
 Contents of the bash file "./deploy.sh":
 ```
@@ -52,12 +59,6 @@ docker pull mikkeldjurhuus/${IMAGE_NAME}:latest
 docker-compose up -d --no-deps --build ${SERVICE_NAME}
 docker image prune -a
 ```
-Here we can see how easy it is to redeploy a docker service, with just 3 lines of code.
-
-Deployment steps:
-- Pull the newly build image
-- Rebuild the service using our image and restart it.
-- Cleanup old images
 
 THATS IT!? A commit to the relase branch will now trigger jenkins to build and deploy our docker application.
 
@@ -118,3 +119,6 @@ Now restrict the permissions of the authorized_keys file with this command:
 chmod 600 ~/.ssh/authorized_keys
 ```
 Now we have a public key installed, which means we now can SSH into our production server, from our jenkins server.
+
+# References
+https://github.com/datsoftlyngby/soft2017fall-lsd-teaching-material/blob/master/lecture_notes/05-Continuous%20Integration%20and%20Delivery.ipynb
