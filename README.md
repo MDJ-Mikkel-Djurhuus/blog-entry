@@ -36,7 +36,7 @@ To generate a new key pair, we login on our jenkins server and enter the followi
 ```
 ssh-keygen
 ```
-As we are logged into a user called builder, the output that looks like the following:
+As we are logged into a user called builder, the output looks like the following:
 ```
 ssh-keygen output
 Generating public/private rsa key pair.
@@ -53,14 +53,14 @@ follwing the previous step, we can use the following command to print our public
 ```
 cat ~/.ssh/id_rsa.pub
 ```
-This should print our public SSH key, which should look something like the following:
+This should print our public SSH key, which looks something like the following:
 ```
 id_rsa.pub contents
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBGTO0tsVejssuaYR5R3Y/i73SppJAhme1dH7W2c47d4gOqB4izP0+fRLfvbz/tnXFz4iOP/H6eCV05hqUhF+KYRxt9Y8tVMrpDZR2l75o6+xSbUOMu6xN+uVF0T9XzKcxmzTmnV7Na5up3QM3DoSRYX/EP3utr2+zAqpJIfKPLdA74w7g56oYWI9blpnpzxkEd3edVJOivUkpZ4JoenWManvIaSdMTJXMy3MtlQhva+j9CgguyVbUkdzK9KKEuah+pFZvaugtebsU+bllPTB0nlXGIJk98Ie9ZtxuY3nCKneB+KjKiXrAvXUPCI9mWkYS/1rggpFmu3HbXBnWSUdf builder@jenkins-server
 ```
 Select the public key, and copy it to your clipboard.
 
-To enable the use of our SSH key to authenticate our jenkins server, we must add the public key to a special file on our production server.
+To enable the use of our SSH key to authenticate our jenkins server, we must add the public key to a file called authorized_keys inside a folder called .ssh at the home directory for our build user
 
 On the server, as the root user, we enter the following command to switch to our build user (substitute your own user name):
 ```
@@ -68,12 +68,12 @@ su - builder
 ```
 This will take us to the home directory for the user "builder".
 
-Now we create a new directory called .ssh and restrict its permissions with the following commands:
+Now we create the directory called .ssh and restrict its permissions with the following commands:
 ```
 mkdir ~/.ssh
 chmod 700 ~/.ssh
 ```
-The publickey needs to be added to a file called authorized_keys inside the .ssh folder. We will use nano to edit the file: (if the file doesn't exist it will automaticly be created)
+We will use nano to edit the authorized_keys file: (if the file doesn't exist it will automaticly be created)
 ```
 nano ~/.ssh/authorized_keys
 ```
