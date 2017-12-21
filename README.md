@@ -1,3 +1,6 @@
+# Abstract
+write something about why we need continious delivery and what problems it solves..
+
 # Jenkins / Git / Docker - Just how easy it is to setup a CD environment
 
 After installing jenkins create a new Freestyle project
@@ -119,6 +122,13 @@ Now restrict the permissions of the authorized_keys file with this command:
 chmod 600 ~/.ssh/authorized_keys
 ```
 Now we have a public key installed, which means we now can SSH into our production server, from our jenkins server.
+
+# What now?
+This blog is just a brief look into how easy it is to get a CD workflow up and running. 
+
+We only mentions the CD part of jenkins, but you could easily extend its use to also manage CI. Letting jenkins handle merging of  branches and running tests.
+
+Besides Jenkins there are many other tools which can help you automate your development workflow. 
 
 # References
 https://github.com/datsoftlyngby/soft2017fall-lsd-teaching-material/blob/master/lecture_notes/05-Continuous%20Integration%20and%20Delivery.ipynb
