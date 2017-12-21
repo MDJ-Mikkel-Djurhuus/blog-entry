@@ -10,6 +10,10 @@ Setup source code management (link to git and chose branch)
 
 Build script (workspace is now the chosen git)
 
+![build script](./jenkins-docker-password.PNG)
+
+![build script](./jenkins-docker-password-enable.PNG)
+
 ![build script](./jenkins-build.PNG)
 
 deployment script
