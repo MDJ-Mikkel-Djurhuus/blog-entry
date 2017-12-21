@@ -13,7 +13,7 @@ Build script (workspace is now the chosen git)
 ![build script](./jenkins-build.PNG)
 
 deployment script
-`
+```
 #!/bin/bash
 IMAGE_NAME=$1
 SERVICE_NAME=$2
@@ -21,5 +21,5 @@ SERVICE_NAME=$2
 docker pull mikkeldjurhuus/${IMAGE_NAME}:latest
 docker-compose up -d --no-deps --build ${SERVICE_NAME}
 docker image prune -a
-`
+```
 
