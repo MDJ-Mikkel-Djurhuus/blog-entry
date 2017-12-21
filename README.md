@@ -4,19 +4,25 @@ Make a freestyle project
 
 ![create a new project](./jenkins-freestyle-project.PNG)
 
-Setup source code management (link to git and chose branch)
+## Connect with Git
+
+Go to the Setup source code management and insert information below
 
 ![setup git](./jenkins-source-code-management.PNG)
 
-Build script (workspace is now the chosen git)
+By now we still haven't told git about our jenkins server, so we need to configure a webhook. This is done logging into our github repository and navigate to settings => integrations & services. Here we add a new service by searching for "jenkins" and choosing the "Jenkins (Git plugin)".
+
+![setup git](./jenkins-githook.PNG)
+
+We have now linked jenkins to our git
+
+Now we need specify what should happen whenever git recieves a new commit to the release branch.
 
 ![build script](./jenkins-docker-password.PNG)
 
 ![build script](./jenkins-docker-password-enable.PNG)
 
 ![build script](./jenkins-build.PNG)
-
-to be able to ssh into our production server, we need to create a public
 
 deployment script
 ```
