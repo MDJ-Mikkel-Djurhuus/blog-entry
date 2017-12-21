@@ -12,3 +12,10 @@ Build script (workspace is now the chosen git)
 
 ![build script](./jenkins-build.PNG)
 
+deployment script
+`
+docker pull mikkeldjurhuus/${IMAGE_NAME}:latest
+docker-compose up -d --no-deps --build ${SERVICE_NAME}
+docker image prune -a
+`
+
