@@ -1,5 +1,13 @@
+## Continuous Deployment, From Study To Success In 1 Day.
+
 # Abstract
 write something about why we need continious delivery and what problems it solves..
+
+We all know the feeling of pushing new development code unto the production environment. Hoping, wishing, it'll work and there isn't some unforseen circumstance which forces us into panic mode, because now the entire production environment is flashing red and nothing is working. 
+
+This is the scenario we want prevent. To do that, we want to setup a continuous deployment environment. Specifically we'll primarily look at using Jenkins, and how it can be used to manage Docker and Git.
+
+With a continuous deployment environment up and running, everytime a developer pushes code to the specified Git branch, Jenkins will build and deploy the updated code to the desired environment, preferably release. Ensuring every consumer is always on the newest update and benefits from new features as soon as possible.
 
 # Jenkins / Git / Docker - Just how easy it is to setup a CD environment
 
