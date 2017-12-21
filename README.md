@@ -17,8 +17,9 @@ deployment script
 #!/bin/bash
 IMAGE_NAME=$1
 SERVICE_NAME=$2
+BUILD_NUMBER=$3
 
-docker pull mikkeldjurhuus/${IMAGE_NAME}:latest
+docker pull mikkeldjurhuus/${IMAGE_NAME}:${BUILD_NUMBER}
 docker-compose up -d --no-deps --build ${SERVICE_NAME}
 docker image prune -a
 ```
