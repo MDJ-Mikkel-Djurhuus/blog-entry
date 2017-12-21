@@ -1,5 +1,3 @@
-setup/install jenkins
-
 # Jenkins
 
 After installing jenkins create a new Freestyle project
