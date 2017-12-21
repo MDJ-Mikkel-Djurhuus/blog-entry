@@ -47,33 +47,33 @@ Hit return to accept this file name and path (or enter a new name).
 This generates a private key, id_rsa, and a public key, id_rsa.pub, in the .ssh directory of the localuser (builder)'s  home directory. Remember that the private key should not be shared with anyone who should not have access to your servers!
 
 ### Copy the Public Key
-After generating an SSH key pair, you will want to copy your public key to your production server.
+After generating the SSH key pair, we need to copy the public key to our production server.
 
-Assuming you generated an SSH key pair using the previous step, use the following command in the terminal of your jenkins server to print your public key (id_rsa.pub):
+follwing the previous step, we can use the following command to print our public key (id_rsa.pub):
 ```
 cat ~/.ssh/id_rsa.pub
 ```
-This should print your public SSH key, which should look something like the following:
+This should print our public SSH key, which should look something like the following:
 ```
 id_rsa.pub contents
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBGTO0tsVejssuaYR5R3Y/i73SppJAhme1dH7W2c47d4gOqB4izP0+fRLfvbz/tnXFz4iOP/H6eCV05hqUhF+KYRxt9Y8tVMrpDZR2l75o6+xSbUOMu6xN+uVF0T9XzKcxmzTmnV7Na5up3QM3DoSRYX/EP3utr2+zAqpJIfKPLdA74w7g56oYWI9blpnpzxkEd3edVJOivUkpZ4JoenWManvIaSdMTJXMy3MtlQhva+j9CgguyVbUkdzK9KKEuah+pFZvaugtebsU+bllPTB0nlXGIJk98Ie9ZtxuY3nCKneB+KjKiXrAvXUPCI9mWkYS/1rggpFmu3HbXBnWSUdf builder@jenkins-server
 ```
 Select the public key, and copy it to your clipboard.
 
-To enable the use of SSH key to authenticate our jenkins server, we must add the public key to a special file on our production.
+To enable the use of our SSH key to authenticate our jenkins server, we must add the public key to a special file on our production server.
 
 On the server, as the root user, we enter the following command to switch to our build user (substitute your own user name):
 ```
 su - builder
 ```
-This will take us to the home directory for the user builder.
+This will take us to the home directory for the user "builder".
 
-Create a new directory called .ssh and restrict its permissions with the following commands:
+Now we create a new directory called .ssh and restrict its permissions with the following commands:
 ```
 mkdir ~/.ssh
 chmod 700 ~/.ssh
 ```
-Now open a file in .ssh called authorized_keys with a text editor. We will use nano to edit the file:
+The publickey needs to be added to a file called authorized_keys inside the .ssh folder. We will use nano to edit the file: (if the file doesn't exist it will automaticly be created)
 ```
 nano ~/.ssh/authorized_keys
 ```
