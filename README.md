@@ -1,7 +1,6 @@
 ## Continuous Deployment, From Study To Success In 1 Day.
 
 # Abstract
-write something about why we need continious delivery and what problems it solves..
 
 We all know the feeling of pushing new development code unto the production environment. Hoping, wishing, it'll work and there isn't some unforseen circumstance which forces us into panic mode, because now the entire production environment is flashing red and nothing is working. 
 
