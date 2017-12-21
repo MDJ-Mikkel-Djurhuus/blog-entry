@@ -140,12 +140,21 @@ Besides Jenkins there are many other tools which can help you automate your deve
 
 # References
 https://github.com/datsoftlyngby/soft2017fall-lsd-teaching-material/blob/master/lecture_notes/05-Continuous%20Integration%20and%20Delivery.ipynb
+
 https://en.wikipedia.org/wiki/Mean_time_to_recovery
+
 https://en.wikipedia.org/wiki/DevOps
+
 http://skillslane.com/ultimate-list-devops-tools/ (List of tools that can be used in a devops workflow)
+
 https://en.wikipedia.org/wiki/Continuous_delivery
+
 https://en.wikipedia.org/wiki/Continuous_integration
+
 https://jenkins-ci.org/
+
 https://www.docker.com/
+
 https://git-scm.com/
+
 https://github.com/
